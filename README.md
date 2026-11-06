@@ -15,9 +15,15 @@ Yêu cầu: Ubuntu 24.04 trở lên hoặc Linux Mint 22 trở lên (Ubuntu 22.0
 
 ## Tự cập nhật
 
-Từ bản 2.1.0, hai app tự kiểm tra bản mới mỗi ngày. Có bản mới thì app hiện nút **Cập nhật**
-(app thí sinh: ở màn hình đăng nhập; app giám thị: ở thanh bên trái). Bấm nút, nhập mật khẩu máy là xong, app tự mở lại.
-Không cập nhật trong giờ thi. Máy đang dùng bản 2.0.x cần cài tay bản 2.1.0 một lần.
+Từ bản 2.2.0, máy **tự cập nhật, không cần ai bấm**:
+
+- Mỗi ngày máy hỏi trang này một lần xem có bản mới không.
+- Có bản mới và máy **không trong giờ thi** thì tự tải, kiểm tra mã SHA-256 rồi tự cài.
+  Đang có bài thi (kể cả bài thi dở do mất điện) thì đợi thi xong mới cài.
+- App thí sinh đang ở màn hình đăng nhập sẽ tự mở lại bằng bản mới. App giám thị dùng bản mới từ lần mở sau
+  (hoặc bấm "Mở lại ngay").
+
+Máy đang dùng bản 2.0.x: cài tay bản mới nhất một lần. Máy đang dùng 2.1.0: bấm nút **Cập nhật** một lần.
 
 ## Cách cài
 
